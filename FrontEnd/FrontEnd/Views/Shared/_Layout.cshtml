@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="~/Content/Styles/css/flickity.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="content">
+        <nav class="nav">
+            <div class="site-logo-container">
+                <img class="site-logo" src="~/Content/Logo/PNGS/SRrecordings.png" alt="">
+            </div>
+            <ul class="nav-list">
+                <li><a href="#" class="nav-link"><img class="icon-img" src="~/Content/Icons/PNGs/Home.png" alt="" />Home</a></li>
+                <li><a href="#" class="nav-link"><img class="icon-img" src="~/Content/Icons/PNGs/Records.png" alt="" />Records</a></li>
+                <li><a href="#" class="nav-link"><img class="icon-img" src="~/Content/Icons/PNGs/Music.png" alt="" />Music</a></li>
+                <li><a href="#" class="nav-link"><img class="icon-img" src="~/Content/Icons/PNGs/Artists.png" alt="" />Artists</a></li>
+                <li><a href="#" class="nav-link"><img class="icon-img" src="~/Content/Icons/PNGs/Concerts.png" alt="" />Concerts</a></li>
+            </ul>
+            <div class="text-right">
+                <div class="sign-up-button"><a href="#">Sign Up</a></div>
+            </div>
+        </nav>
+        <div class="hero-banner">
+            <div class="hero-banner-text">
+                <h2 class="hero-banner-header">A.M. Paradox</h2>
+                <p class="hero-banner-para">
+                    Christopher Brent Wood, better know by his stage name Brent Faiyaz, is<br />
+                    an American singer and record producer. He released his debut project, an<br />
+                    extended play entitled A.M. Paradox, in 2016.
+                </p>
+            </div>
+        </div>
+        <div class="artist-info">
+            <img class="artist-img" src="~/Content/Images/image2.png" alt="" />
+            <div class="artist-info-text">
+                <h2 class="artist-info-header">
+                    Brent Faiyaz, So<br />
+                    Far Gone.
+                </h2>
+                <p class="artist-into-para">
+                    Faiyaz began uploading his music onto SoundCloud in 2014<br />
+                    And moved from his hometown Columbia, Maryland to<br />
+                    Charlotte, North Carolina before ultimately settling in Los<br />
+                    Angeles, California to further his music career. On January 19,<br />
+                    2015, he released his debut single “Allure”.[4] On June 1, 2016,<br />
+                    Faiyaz released “Invite Me”, the lead single from his<br />
+                    Upcoming debut EP. On September 19, 2016, his 21st birthday,<br />
+                    The EP entitled A.M. Paradox was released and received with<br />
+                    Positive reviews from music critics. On January 26, 2017,<br />
+                    Sonder released their debut EP Into.
+                </p>
+                <div class="button-container">
+                    <div class="learn-more-button"><a href="#">Learn More</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="new-releases">
+            <h2 class="new-releases-header">New Releases</h2>
+            <p class="new-releases-text">
+                New albums every single month, check out the newest & best from Snyder<br />
+                <div class="new-releases-text">Recording artist, now available on Apple Music & Spotify.</div>
+            </p>
+            <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "wrapAround": true}'>
+                <div class="carousel-cell">
+                    <div class="carousel-content-card">
+                        <div class="carousel-img-container">
+                            <img class="carousel-image" src="~/Content/Images/image4.png" alt="Alternate Text" />
+                        </div>
+                        <div class="new-releases-body">
+                            <h3 class="carousel-header">Trap Soul</h3>
+                            <div class="artist-name">Bryson Tiller</div>
+                            <p class="carousel-text">
+                                Bryson Djuan Tiller, is an American singer,<br />
+                                Songwriter and rapper. Born in Louisville,<br />
+                                Kentucky, he started his career in 2011,<br />
+                                Releasing the debut mixtape titled Killer<br />
+                                Instinct Vol.1.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="carousel-content-card">
+                        <div class="carousel-img-container">
+                            <img class="carousel-image" src="~/Content/Images/image4.png" alt="Alternate Text" />
+                        </div>
+                        <div class="new-releases-body">
+                            <h3 class="carousel-header">Trap Soul</h3>
+                            <div class="artist-name">Bryson Tiller</div>
+                            <p class="carousel-text">
+                                Bryson Djuan Tiller, is an American singer,<br />
+                                Songwriter and rapper. Born in Louisville,<br />
+                                Kentucky, he started his career in 2011,<br />
+                                Releasing the debut mixtape titled Killer<br />
+                                Instinct Vol.1.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="carousel-content-card">
+                        <div class="carousel-img-container">
+                            <img class="carousel-image" src="~/Content/Images/image4.png" alt="Alternate Text" />
+                        </div>
+                        <div class="new-releases-body">
+                            <h3 class="carousel-header">Trap Soul</h3>
+                            <div class="artist-name">Bryson Tiller</div>
+                            <p class="carousel-text">
+                                Bryson Djuan Tiller, is an American singer,<br />
+                                Songwriter and rapper. Born in Louisville,<br />
+                                Kentucky, he started his career in 2011,<br />
+                                Releasing the debut mixtape titled Killer<br />
+                                Instinct Vol.1.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="carousel-content-card">
+                        <div class="carousel-img-container">
+                            <img class="carousel-image" src="~/Content/Images/image4.png" alt="Alternate Text" />
+                        </div>
+                        <div class="new-releases-body">
+                            <h3 class="carousel-header">Trap Soul</h3>
+                            <div class="artist-name">Bryson Tiller</div>
+                            <p class="carousel-text">
+                                Bryson Djuan Tiller, is an American singer,<br />
+                                Songwriter and rapper. Born in Louisville,<br />
+                                Kentucky, he started his career in 2011,<br />
+                                Releasing the debut mixtape titled Killer<br />
+                                Instinct Vol.1.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="carousel-content-card">
+                        <div class="carousel-img-container">
+                            <img class="carousel-image" src="~/Content/Images/image4.png" alt="Alternate Text" />
+                        </div>
+                        <div class="new-releases-body">
+                            <h3 class="carousel-header">Trap Soul</h3>
+                            <div class="artist-name">Bryson Tiller</div>
+                            <p class="carousel-text">
+                                Bryson Djuan Tiller, is an American singer,<br />
+                                Songwriter and rapper. Born in Louisville,<br />
+                                Kentucky, he started his career in 2011,<br />
+                                Releasing the debut mixtape titled Killer<br />
+                                Instinct Vol.1.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buisness-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2063.850114120129!2d-94.70470430887455!3d38.970333336228535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0eb66d8711493%3A0x128f5f4aeaee0907!2s10261%20W%2087th%20St%2C%20Overland%20Park%2C%20KS%2066212!5e0!3m2!1sen!2sus!4v1613338430886!5m2!1sen!2sus">
+            </iframe>
+        </div>
+
+        <div class="contact-section">
+            <h2 class="contact-header">
+                Get In Touch
+            </h2>
+            <p class="contact-message">
+                New albums every single month, check out the newest & <br />
+                best from Snyder Recording artist, now available on Apple <br />
+                Music & Spotify.
+            </p>
+
+                <div class="user-name">
+                    <input class="first-name" type="text" placeholder="First Name" />
+                    <input class="last-name" type="text" placeholder="Last Name" />
+                </div>
+                <div class="user-contact">
+                    <input class="email" type="email" placeholder="Email" />
+                    <input class="subject" type="text" placeholder="Subject" />
+                </div>
+                <textarea class="message" placeholder="Write a brief message"></textarea>
+                <div class="submit"><a>Submit</a></div>
+                <div class="contact-image-container">
+                    <img class="contact-image" src="~/Content/Images/image3.png" alt="" />
+                </div>
+        </div>
+        <footer class="footer-container">
+            <div class="site-logo-container">
+                <img src="~/Content/Logo/PNGS/SRrecordings.png" alt="Site Logo" class="site-logo" />
+            </div>
+            <ul></ul>
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="~/Scripts/js/flickity.pkgd.min.js"></script>
+    @*<script>
+            $('.main-carousel').flickity({
+                // options
+                cellAlign: 'center',
+                contain: true
+            });
+        </script>*@
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

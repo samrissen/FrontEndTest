@@ -275,44 +275,33 @@
     display: flex;
     flex-basis: 100%;
     flex-flow: column;
+    margin-bottom: 100px;
 }
 
 .user-input {
-    flex-basis: 50%;
-    background-color: white;
-    margin: 0;
-    padding-left: 40px;
-    width: 50%;
-    margin-right: 50px;
-    flex-flow: column;
 }
 
 .contact-header {
-    flex: 50%;
     color: #001D5D !important;
     font-size: 42px;
     font-weight: bold;
     padding: 15px;
     margin: 15px;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 0;
     padding-left: 40px;
-    width: 50%;
-    justify-content: flex-start;
 }
 
 .contact-message {
-    flex: 50%;
     margin: 15px;
     padding: 15px;
     padding-left: 40px;
-    width: 50%;
-    justify-content: flex-start;
 }
 
 .first-name {
     display: inline-flex;
-    width: 70%;
-    height: 45px;
+    width: 80%;
+    height: 50px;
     margin: 15px;
     background-color: rgba(184, 191, 207,.4);
     border: none;
@@ -321,30 +310,17 @@
 
 .last-name {
     display: inline-flex;
-    width: 70%;
-    height: 45px;
+    width: 80%;
+    height: 50px;
     margin: 15px;
     background-color: rgba(184, 191, 207,.4);
     border: none;
     margin: 15px 40px 15px 40px;
 }
-.user-name {
-    display: flex;
-    justify-content: flex-start;
-}
-.user-contact {
-    display: flex;
-    justify-content: flex-start;
-}
-.user-message {
-    display: flex;
-    justify-content: flex-start;
-}
-
 .email {
     display: inline-flex;
-    width: 70%;
-    height: 45px;
+    width: 80%;
+    height: 50px;
     margin: 15px;
     background-color: rgba(184, 191, 207,.4);
     border: none;
@@ -353,8 +329,8 @@
 
 .subject {
     display: inline-flex;
-    width: 70%;
-    height: 45px;
+    width: 80%;
+    height: 50px;
     margin: 15px;
     background-color: rgba(184, 191, 207,.4);
     border: none;
@@ -368,32 +344,80 @@
     border: none;
     max-width: 50%;
     width: 100%;
-    height: 120px;
+    height: 125px;
     margin: 15px 40px 15px 40px;
 }
 
 .submit a {
-    margin-left: 15px;
+    margin-left: 40px;
     list-style-type: none;
     display: inline-flex;
     text-decoration: none;
-    padding: 10px 35px 10px 35px;
+    padding: 10px 40px 10px 40px;
     background-color: #D9F0D0;
     color: #68C242;
 }
 
     .submit a:hover {
         text-decoration: none;
-        padding: 10px 35px 10px 35px;
+        padding: 10px 40px 10px 40px;
         background-color: #68C242;
         color: white;
     }
 
 .contact-image-container {
-    position: relative;
-    top: 0;
-    float: right;
+    position: absolute;
+    right: 8%;
+    height: 91.5%;
+    width: 30%;
+    overflow: hidden;
 }
 .contact-image {
-
+    height: 100%;
+    width: 100%;
+}
+.footer-container {
+    background-color: #001D5D;
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+}
+.site-logo-container {
+    flex-direction: column;
+    margin-right: 35px;
+    width: 140px;
+}
+.site-logo-white {
+    justify-self: center;
+    align-self: flex-start;
+    padding: 15px;
+}
+.site-logo-container > img {
+    padding: 5px 0 5px 0;
+    margin-bottom: 15px;
+}
+.head {
+    color: white;
+    font-weight: bold;
+}
+.company-info {
+    color: #B8BFCF;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    list-style-type: none;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.company-info > li {
+    padding: 5px;
+}
+.explore {
+    color: #B8BFCF;
+    width: 120px;
+    list-style: none;
+    list-style-type: none;
+}
+.explore > li {
+    padding: 5px;
 }

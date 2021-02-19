@@ -268,6 +268,7 @@
     <Content Include="Content\Icons\SVGs\Snapchat.svg" />
     <Content Include="Content\Icons\SVGs\twitter.svg" />
     <Content Include="Content\Icons\SVGs\youtube.svg" />
+    <Content Include="Content\Images\EditedImage3.png" />
     <Content Include="Content\Images\image1.png" />
     <Content Include="Content\Images\image2.png" />
     <Content Include="Content\Images\image3.png" />

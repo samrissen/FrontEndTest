@@ -382,7 +382,7 @@
     flex-direction: row;
     padding: 60px;
 }
-.site-logo-container {
+.site-logo-container-footer {
     flex-direction: column;
     margin-right: 35px;
     width: 140px;
@@ -412,12 +412,32 @@
 .company-info > li {
     padding: 5px;
 }
-.explore {
+.nav-link-footer {
+    color: #B8BFCF;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+}
+.nav-link-footer:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    cursor: grab;
+}
+.footer-links {
     color: #B8BFCF;
     width: 120px;
     list-style: none;
     list-style-type: none;
+    margin-right: 35px;
+    width: 140px;
+    text-wrap: none;
+    white-space: nowrap;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
-.explore > li {
+.footer-links > li {
     padding: 5px;
 }
